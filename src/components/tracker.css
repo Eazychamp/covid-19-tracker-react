@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_conatainer  {
+    /* text-align: center; */
+    background-color: rgba(245, 246, 247, 0.856);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+}
+
+.contianer_left {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.contianer_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_chart {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+
+}
+
+.container_map {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 89vh;
+}
+
+.container_table {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.covid_table_row td {
+    padding: 15px 0px
+}
+
+.covid_table_row:hover {
+    background-color:#f5f5f5
+}
+
+.covid_chart {
+    display: flex;
+}
+
+.line_cahrt {
+    width: 300px;
+}
+
+.covid_numbers {
+    display: flex;
+    flex-direction: row;
+}
+    
+.number_box {
+    margin: 10px 15px ;
+    border-radius: 10px;
+    min-width: 110px;
+    padding: 3px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.confirmed {
+    background-color: rgb(248, 206, 226);
+    font-weight: 600;
+    font-family: -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 0, 106);
+}
+
+.active {
+    background-color: rgb(199, 199, 253);
+    font-weight: 600;
+    font-family: -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+}
+
+.recovered {
+    background-color: rgb(180, 252, 180);
+    font-weight: 600;
+    font-family: -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+}
+
+.deaths {
+    background-color: rgb(231, 231, 231);
+    font-weight: 600;
+    font-family: -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+}
+
+.number_box span:last-child {
+    margin-top: 14px;
+    margin-bottom: 5px;
+  } 
+
+  .number_box span:first-child {
+    margin-top: 6px;
+  } 
